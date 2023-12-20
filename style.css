@@ -141,3 +141,95 @@ header {
 .navbar .invite-btn {
   display: none;
 }
+
+main {
+  overflow: hidden;
+}
+
+.home {
+  background: var(--Very--Light--Gray);
+  padding-bottom: 60px;
+}
+
+.home-img-box {
+  background: url(images/bg-intro-mobile.svg) no-repeat top;
+  background-size: cover;
+  padding: 0 15px;
+  margin-bottom: 40px;
+}
+
+.home-img-box home-img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.home-title {
+  font-size: 38px;
+  font-weight: 400;
+  color: var(--Dark--Blue);
+  margin-bottom: 20px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.home-text {
+  margin: auto;
+  color: var(--Dark--Blue);
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+.service {
+  padding: 60px 18px;
+  background-color: var(--Light--Grayish--Blue);
+}
+
+.section-title {
+  color: var(--Dark--Blue);
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-text {
+  color: var(--Grayish-Blue);
+  font-size: 15px;
+  line-height: 1.7;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.service-card-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-icon {
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.card-title,
+.card-text {
+  text-align: center;
+}
+
+.service-card .card-title {
+  color: var(--Dark--Blue);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.service-card .card-text {
+  font-size: 15px;
+  color: var(--Grayish-Blue);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
