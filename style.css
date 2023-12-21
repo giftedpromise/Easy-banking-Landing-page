@@ -313,7 +313,6 @@ main {
 }
 footer {
   background: var(--Dark--Blue);
-  height: 70vh;
 }
 
 .footer-wrapper {
@@ -582,6 +581,10 @@ footer {
 
   .social-links {
     margin-top: 70px;
+  }
+
+  footer {
+    overflow-y: hidden;
   }
 
   .footer-links,
